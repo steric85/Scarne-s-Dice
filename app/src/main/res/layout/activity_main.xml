@@ -45,11 +45,21 @@
 
     </LinearLayout>
 
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Your Current Score : 0"
+         android:gravity="center"
+         android:id="@+id/curr_score_tv"
+         android:textSize="20sp"/>
+
     <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
         android:src="@drawable/dice1"
-        android:layout_margin="10dp"/>
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/dice_iv"
+        android:layout_margin="20dp"/>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -60,6 +70,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="Roll"
+            android:textSize="20sp"
             android:paddingLeft="8dp"
             android:paddingRight="8dp"
             android:layout_marginLeft="2dp"
@@ -70,6 +81,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="Hold"
+            android:textSize="20sp"
             android:paddingLeft="8dp"
             android:paddingRight="8dp"
             android:layout_marginLeft="2dp"
@@ -80,6 +92,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="Reset"
+            android:textSize="20sp"
             android:paddingLeft="8dp"
             android:paddingRight="8dp"
             android:layout_marginLeft="2dp"
